@@ -57,12 +57,12 @@ const patterns:ReplacementPattern[] = [
 		replacementString:"$1z$2",
 	},
 
-	{
-		regex:/(i|y)z(e|ed|er|es|ing|ingly|able|ers)$/,
-		originalIndex:[4,1],
-		replacementIndex:[0,5],
-		replacementString:"$1s$2",
-	},
+	// {
+	// 	regex:/(i|y)z(e|ed|er|es|ing|ingly|able|ers)$/,
+	// 	originalIndex:[4,1],
+	// 	replacementIndex:[0,5],
+	// 	replacementString:"$1s$2",
+	// },
 
 	{
 		regex:/([^a])esth/,
